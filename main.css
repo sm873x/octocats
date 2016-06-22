@@ -1,22 +1,61 @@
 /*Octocats*/
 
+ul {
+    list-style: none;
+}
 .octocat {
     position: relative;
     float: left;
-    max-width: 33.3%;
-    min-width: auto;
+    width: 30em;
     margin: 1em;
-
+    border-bottom: 2px solid #aeacb1;
 }
 
 .octocat img {
     border: 2px solid #c6c1c5;
-
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
 }
 .authors img {
     position: relative;
     float: right;
-    width: 5%;
+    width: 10%;
     height: auto;
+    border-color: transparent;
+}
 
+ul.authors {
+    padding-left: 0;
+}
+span.image-number {
+    font-weight: bold;
+    color: #a4a2a8;
+    padding-top: 1em;
+    display: inline-block;
+}
+
+.image-caption {
+    position: relative;
+    text-align: right;
+    display: inline;
+    float: right;
+    padding-top: 27px;
+    padding-bottom: 0.5em;
+}
+
+.image-caption ul,
+.image-caption li
+{
+    display: inline;
+
+}
+
+.image-footer {
+    display: inline;
+}
+a {
+    font-weight: bold;
 }
