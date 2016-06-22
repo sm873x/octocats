@@ -1,7 +1,22 @@
 /*Octocats*/
 
 .octocat {
+    position: relative;
     float: left;
-    width: 33.3%;
-    min-wedith: 20em;
+    max-width: 33.3%;
+    min-width: auto;
+    margin: 1em;
+
+}
+
+.octocat img {
+    border: 2px solid #c6c1c5;
+
+}
+.authors img {
+    position: relative;
+    float: right;
+    width: 5%;
+    height: auto;
+
 }
