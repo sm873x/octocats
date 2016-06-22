@@ -1,9 +1,7 @@
 /*Octocats*/
 
-img.octocat {
-    33%
-}
-
-li {
-    border: 10px solid red;
+.octocat {
+    float: left;
+    width: 33.3%;
+    min-wedith: 20em;
 }
