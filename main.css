@@ -44,18 +44,21 @@ span.image-number {
     float: right;
     padding-top: 27px;
     padding-bottom: 0.5em;
+    width: 70%;
+    font-family: Arial;
 }
 
 .image-caption ul,
 .image-caption li
 {
     display: inline;
-
 }
 
-.image-footer {
-    display: inline;
+.image-number:before {
+    content: "#";
+    margin-right: 1px;
 }
+
 a {
     font-weight: bold;
 }
