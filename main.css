@@ -4,7 +4,6 @@ ul {
     list-style: none;
 }
 .octocat {
-    position: relative;
     float: left;
     width: 30em;
     margin: 1em;
@@ -14,8 +13,6 @@ ul {
 .octocat img {
     border: 2px solid #c6c1c5;
     max-width: 100%;
-    max-height: 100%;
-    margin: auto;
     display: block;
     box-sizing: border-box;
 }
@@ -42,9 +39,7 @@ span.image-number {
 }
 
 .image-caption {
-    position: relative;
     text-align: right;
-    display: inline;
     float: right;
     padding-top: 27px;
     padding-bottom: 0.5em;
@@ -56,9 +51,6 @@ span.image-number {
 .image-caption li
 {
     display: inline;
-    height: 30px;
-    line-height: normal
-    vertical-align: middle;
 }
 
 .image-number:before {
