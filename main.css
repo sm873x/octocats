@@ -19,6 +19,7 @@ ul {
     display: block;
     box-sizing: border-box;
 }
+
 .authors img {
     position: relative;
     float: right;
@@ -30,11 +31,14 @@ ul {
 ul.authors {
     padding-left: 0;
 }
+
 span.image-number {
     font-weight: bold;
     color: #a4a2a8;
     padding-top: 1em;
     display: inline-block;
+    font-size: 2em;
+    font-family: Arial;
 }
 
 .image-caption {
@@ -52,6 +56,9 @@ span.image-number {
 .image-caption li
 {
     display: inline;
+    height: 30px;
+    line-height: normal
+    vertical-align: middle;
 }
 
 .image-number:before {
