@@ -8,14 +8,14 @@
 
 .octocat {
     float: left;
-    width: 30em;
+    width: 30%;
     margin: 1em;
     border-bottom: 2px solid #aeacb1;
 }
 
 .octocat img {
     border: 2px solid #c6c1c5;
-    max-width: 100%;
+    width: 100%;
     border-radius: 3px;
 }
 
@@ -31,7 +31,7 @@ ul.authors {
     padding-left: 0;
 }
 
-span.image-number {
+.image-number {
     font-weight: bold;
     color: #a4a2a8;
     padding-top: 15px;
@@ -52,6 +52,7 @@ span.image-number {
 .image-footer {
     position: relative;
 }
+
 .image-caption ul,
 .image-caption li
 {
@@ -68,16 +69,6 @@ a {
 }
 
 .triangle-down::before {
-    /*content: '';
-    position: relative;
-    left: 94%;
-    top: 100%;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 14px 15px 0 15px;
-    border-color: #a1a1a1 transparent transparent transparent;
-    clear: both;*/
     content:'';
     display:block;
     width: 0;
